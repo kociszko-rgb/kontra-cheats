@@ -1,0 +1,63 @@
+-- CONTRA HAX SCRIPT by CheatCodeCreator
+-- Load with: loadstring(game:HttpGet("https://gist.github.com/CheatCodeCreator/raw/1f2e4b68a3d0c7b2e5x7z98h1cj4k6m0/contra_hax.lua"))()
+
+local activeHacks = false
+local espTracers = {}
+local playerGui = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+
+function addEspTracer(plr)
+  if not plr or plr == nil then return end
+
+  local frame = Instance.new('Frame')
+   frame.Size=UDim(-new-,-...)
+       Position=UDim(-thresh-)
+        BackgroundTransparency=-new-
+         BorderSizePixel==->...
+          Parent==>playerG-[ScreenGui]
+           Text="🔴"
+
+end
+
+function updateEsp()
+for_,v in pairs(game.Teams.DarkTeam.P-players)do
+addEspTracer(v)
+
+end
+
+
+
+
+
+
+function enableHacks()
+activeHacks=true
+
+
+if ESP Tracers:
+activate auto fire,
+head hitboxes bigger.
+ammo infi-nity.
+
+
+triggebot active.
+
+
+
+aim assistance locked..
+
+else:
+disable all.
+
+
+
+
+
+
+print("🔥 HACKS ENABLED")
+
+
+
+
+
+
+
