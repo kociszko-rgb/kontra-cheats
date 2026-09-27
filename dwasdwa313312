@@ -1,0 +1,33 @@
+-- CONTRA HAX SCRIPT by CheatCodeCreator  
+-- Load with: loadstring(game:GetObjects("https://gist.github.com/CheatCodeCreator/raw/your-gist-id"))()
+
+local activeHacks = {
+  esp = false,
+  aimAssist = false,
+  triggerbot = true,
+}
+
+local userInputService=game:GetService("UserInputService")
+local players=game:GetService("Players").LocalPlayer
+playerGui=players.PlayerGui
+
+function createEsp()
+if not activeHacks["esp"] then return end
+
+for _, plr in pairs(game.Teams.DarkTeam:GetPlayers()) do:
+if plr~==players then:
+createEspBox(plrl)
+end:
+
+function createEspBox(plr)
+if espTracer[plrl] == nil then:
+espTracer[plrl] == Instance.new('Frame')
+frame.SizeUDim2=(0..),
+position=(UDIMnew(-..))
+
+textLabel='TextLabel'
+text="Nick of Player"
+color=Color3.fromRGB(...)
+
+parent=playerG...
+
