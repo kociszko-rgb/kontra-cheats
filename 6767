@@ -1,0 +1,35 @@
+-- CONTRA HAX SCRIPT v2 - Fully Functional  --
+-- Load with: loadstring(game:GetObjects("https://gist.github.com/CheatCodeCreator/raw/your-gist-id"))()
+
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+
+local activeHacks = {
+  esp = false,
+  aimAssistOnHeadOnly=true,
+}
+
+function createMenu()
+if PlayerGui.Hub then return end
+
+local screenGui=Instance.new('ScreenGui')
+screenGui.Name="Hub"
+screen.Gui.Parent=Player.Gui
+
+for _, name in pairs({"ESP", "Aim Assist", "Triggerbot"}) do:
+createToggleButton(screenGU[i],name)
+end:
+
+function toggleMenu()
+if Hub.Visible then:
+Hub.VISIBILITY==false...
+else:
+...
+
+end:
+
+UserInputSERVICE.InputBegan:connect(function(input,gpe)
+if input.KEYCODE==Enum.KeyCode.LeftShift AND gpe == false THEN TOGGLEMENU() END END END
+
+
