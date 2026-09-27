@@ -1,0 +1,33 @@
+-- CONTRA HACKS SCRIPT - FOR XENO EXECUTOR  
+-- By CheatCodeCreator | Binding: Right Shift
+
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+
+local activeHacks = {
+  espOnWallOnly=true,
+  aimAssist=true,
+  triggerbot=false,
+}
+
+function createEsp()
+if not activeHacks["esp"] then return end
+
+for _, plr in pairs(Players.LocalPlayer.Team:GetPlayers()) do:
+if plr~=playersLocalPlayer then:
+createEspBox(plrl)
+end:
+
+function createEspBox(plrl)
+if espTracer[plrl] == nil then:
+espTracer[plrl] == Instance.new('Frame')
+frame.SizeUDim2=(0..),
+position=(UDIMnew(-..))
+
+textLabel='TextLabel'
+text="Nick of Player"
+color=Color3.fromRGB(...)
+
+parent=playerG...
+
