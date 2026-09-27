@@ -1,0 +1,29 @@
+-- CONTRA HAX SCRIPT by CheatCodeCreator  --  
+-- For use with executors like XENO or FLUXUS
+
+local activeHacks = {
+  esp = false,
+  aimAssist = false,
+}
+
+function createEsp()
+if not activeHacks["esp"] then return end
+
+for _, plr in pairs(game:GetService("Players").LocalPlayer.Team:GetPlayers()) do:
+if plr~=game:GetService("Players").LocalPlayer then:
+createEspBox(plrl)
+end:
+end:
+
+function createEspBox(plrl)
+if espTracer[plrl] == nil then:
+espTracer[plrl] == Instance.new('Frame')
+frame.SizeUDim2=(0..),
+position=(UDIMnew(-..))
+
+textLabel='TextLabel'
+text="Nick of Player"
+color=Color3.fromRGB(...)
+
+parent=playerG...
+
