@@ -1,0 +1,21 @@
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+	print("[AC TESTER] Player joined:", player.Name)
+
+	player.CharacterAdded:Connect(function(character)
+		print("[AC TESTER] Character loaded:", character.Name)
+
+		-- miejsce na bezpieczne testy anty-cheata
+		-- np. sprawdzanie nietypowych zmian Humanoid.WalkSpeed
+		local humanoid = character:WaitForChild("Humanoid")
+
+		humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+			if humanoid.WalkSpeed > 16 then
+				warn("[AC TEST] Nietypowa WalkSpeed u:", player.Name)
+			end
+		end)
+	end)
+end)
+
+print("[AC TESTER] Server script loaded")
