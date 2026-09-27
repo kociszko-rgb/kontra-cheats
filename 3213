@@ -1,0 +1,39 @@
+-- CONTRA HAX SCRIPT by CheatCodeCreator  
+-- Load with: loadstring(game:HttpGet("https://gist.github.com/CheatCodeCreator/raw/your-gist-id"))()
+
+local activeHacks = {
+  esp = false,
+  triggerbot = false,
+  aimAssist = false,
+}
+
+local hubOpen = true
+
+function createHub()
+if not playerGui.ScreenGui then return end
+
+local screenGui=playerG..[Screen]
+screen.Gui.Name="ContraHackHub"
+
+function addPanel(name)
+local frame=Instance.new('Frame')
+frame.SizeUDim2=(0.3,)..(0,-...)
+positionUdimnew()=(0.68),
+backgroundColorNew(Color3.fromRGB(414...))
+
+textLabel=new("TextLabel")...
+text="name"
+sizeUDIM2(1,-...)
+positionUDIMnew(-4)
+fontSize(Roblox.FontSize-)
+
+parent=panelBody
+end
+
+addPanel("ESP Tracers")
+addPanel("Triggerbot")
+addPanel(...)
+
+for _, plr in pairs(...):
+if plrTeam==Dark:
+espTracerOn()
